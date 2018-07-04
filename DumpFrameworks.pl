@@ -19,11 +19,11 @@ my $CLASS_DUMP = 'class-dump';
 # Public Frameworks  /xcode4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk////Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library
 # /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks  /xcode4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library
 
-dump_frameworks('/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks',
+dump_frameworks('/Applications/Xcode9.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks',
                 'Frameworks');
 
 # Private Frameworks
-dump_frameworks('/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/PrivateFrameworks',
+dump_frameworks('/Applications/Xcode9.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks',
                 'PrivateFrameworks');
 
 sub dump_frameworks
